@@ -12,7 +12,7 @@ int main(void)
     Vector2 ballPosition = { (float)screenWidth/2, (float)screenHeight/2 };
     Vector2 size = {15.0f, 30.0f};
     SetTargetFPS(60); 
-    Color bkgCor = {23, 23, 23, 255};
+    Color bkgCor = {23, 47, 23, 255};
     
     // Main game loop
     while (!WindowShouldClose())  
